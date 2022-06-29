@@ -1,0 +1,158 @@
+{
+  "library": [
+    {
+      "id": 1,
+      "title": "Bring Your Human to Work",
+      "author": "Erica Keswin",
+      "image": "../images/gallery1.svg",
+      "timeToRead": "13-min read",
+      "numberOfReads": "1.9k reads",
+      "status": {
+        "isFinished": false,
+        "isTrending": false,
+        "isFeatured": false,
+        "justAdded": false
+      }
+    },
+    {
+      "id": 2,
+      "title": "Bring Your Human to Work",
+      "author": "Erica Keswin",
+      "image": "../images/gallery1.svg",
+      "timeToRead": "13-min read",
+      "numberOfReads": "1.9k reads",
+      "status": {
+        "isFinished": false,
+        "isTrending": false,
+        "isFeatured": false,
+        "justAdded": false
+      }
+    },
+    {
+      "id": 3,
+      "title": "Doesn't Hurt to Ask",
+      "author": "Trey Gowdy",
+      "timeToRead": "13-minute read",
+      "numberOfReads": "1.9k reads",
+      "image": "../images/doesntHurtToAsk.svg",
+      "status": {
+        "isFinished": true,
+        "isTrending": false,
+        "justAdded": false,
+        "isFeatured": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "The Fate of Food",
+      "author": "Amanda Little",
+      "timeToRead": "12-minute read",
+      "numberOfReads": "16k reads",
+      "image": "../images/theFateOfFood.svg",
+      "status": {
+        "isFinished": true,
+        "isTrending": false,
+        "justAdded": false,
+        "isFeatured": false
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lives of the Stoics",
+      "author": "Ryan Holiday, Stephen Hansel",
+      "timeToRead": "13-minute read",
+      "numberOfReads": "",
+      "image": "../images/livesOfStoics.svg",
+      "status": {
+        "isFinished": true,
+        "isTrending": false,
+        "justAdded": false,
+        "isFeatured": false
+      }
+    },
+    {
+      "id": 6,
+      "title": "Loving Your Business",
+      "author": "Debbie King",
+      "timeToRead": "13-minute read",
+      "numberOfReads": "",
+      "image": "../images/lovingYourBusiness.svg",
+      "status": {
+        "isFinished": false,
+        "isTrending": true,
+        "justAdded": false,
+        "isFeatured": false
+      }
+    },
+    {
+      "id": 7,
+      "title": "The Lonely Century",
+      "author": "Noreena Hertz",
+      "timeToRead": "15-minute read",
+      "numberOfReads": "",
+      "image": "../images/theLonelyCentury.svg",
+      "status": {
+        "isFinished": false,
+        "isTrending": false,
+        "justAdded": true,
+        "isFeatured": false
+      }
+    },
+    {
+      "id": 8,
+      "title": "Eat Better,Feel Better",
+      "author": "Giada De Laurentiis",
+      "timeToRead": "13-minute read",
+      "numberOfReads": "1.9k reads",
+      "image": "../images/eatBetterFeelBetter.svg",
+      "status": {
+        "isFinished": false,
+        "isTrending": false,
+        "justAdded": true,
+        "isFeatured": false
+      }
+    },
+    {
+      "id": 9,
+      "title": "Dropshipping",
+      "author": "James Moore",
+      "timeToRead": "12-minute read",
+      "numberOfReads": "",
+      "image": "../images/dropshipping.svg",
+      "status": {
+        "isFinished": false,
+        "isTrending": false,
+        "justAdded": true,
+        "isFeatured": false
+      }
+    },
+    {
+      "id": 10,
+      "title": "Beyond Entrepreneurship",
+      "author": "Jim Collins & Bill Lazier",
+      "timeToRead": "13-minute read",
+      "numberOfReads": "1.9k reads",
+      "image": "../images/beyondEntrepreneurship.svg",
+      "status": {
+        "isFinished": false,
+        "isTrending": false,
+        "justAdded": false,
+        "isFeatured": false
+      }
+    },
+    {
+      "id": 11,
+      "title": "Being Boss",
+      "author": "Kathleen Shannon land Emily...",
+      "timeToRead": "13-minute read",
+      "numberOfReads": "",
+      "image": "../images/beingBoss.svg",
+      "status": {
+        "isFinished": false,
+        "isTrending": false,
+        "justAdded": false,
+        "isFeatured": false
+      }
+    }
+  ]
+}
