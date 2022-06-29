@@ -1,0 +1,7 @@
+organization=saurabh3511
+projectKey=blinkist_project-Dsonar.sources=./src
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.29939
+dashboardUrl=https://sonarcloud.io/dashboard?id=blinkist_project-Dsonar.sources%3D.%2Fsrc
+ceTaskId=AYGvcoycr5mtnOhcR1NT
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYGvcoycr5mtnOhcR1NT
