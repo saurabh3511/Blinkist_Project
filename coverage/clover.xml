@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1656570685451" clover="3.2.0">
-  <project timestamp="1656570685451" name="All files">
-    <metrics statements="357" coveredstatements="213" conditionals="50" coveredconditionals="36" methods="94" coveredmethods="45" elements="501" coveredelements="294" complexity="0" loc="357" ncloc="357" packages="32" files="59" classes="59"/>
+<coverage generated="1656572634089" clover="3.2.0">
+  <project timestamp="1656572634090" name="All files">
+    <metrics statements="360" coveredstatements="218" conditionals="50" coveredconditionals="36" methods="94" coveredmethods="46" elements="504" coveredelements="300" complexity="0" loc="360" ncloc="360" packages="32" files="59" classes="59"/>
     <package name="src">
       <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="App.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/App.tsx">
@@ -65,8 +65,8 @@
       <file name="index.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/atoms/Button/index.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="18" count="9" type="stmt"/>
-        <line num="19" count="144" type="stmt"/>
-        <line num="20" count="144" type="stmt"/>
+        <line num="19" count="145" type="stmt"/>
+        <line num="20" count="145" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Icon">
@@ -113,11 +113,11 @@
       </file>
     </package>
     <package name="src.components.atoms.Typography">
-      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/atoms/Typography/index.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.showIcon">
@@ -265,7 +265,7 @@
       </file>
     </package>
     <package name="src.components.organisms.BookCategories">
-      <metrics statements="37" coveredstatements="30" conditionals="16" coveredconditionals="13" methods="8" coveredmethods="7"/>
+      <metrics statements="40" coveredstatements="33" conditionals="16" coveredconditionals="13" methods="8" coveredmethods="7"/>
       <file name="index.stories.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/BookCategories/index.stories.tsx">
         <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="11" count="0" type="stmt"/>
@@ -277,7 +277,7 @@
         <line num="28" count="0" type="stmt"/>
       </file>
       <file name="index.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/BookCategories/index.tsx">
-        <metrics statements="30" coveredstatements="30" conditionals="16" coveredconditionals="13" methods="7" coveredmethods="7"/>
+        <metrics statements="33" coveredstatements="33" conditionals="16" coveredconditionals="13" methods="7" coveredmethods="7"/>
         <line num="27" count="3" type="stmt"/>
         <line num="35" count="3" type="stmt"/>
         <line num="43" count="3" type="stmt"/>
@@ -285,8 +285,11 @@
         <line num="45" count="18" type="stmt"/>
         <line num="46" count="18" type="stmt"/>
         <line num="47" count="18" type="stmt"/>
+        <line num="48" count="18" type="stmt"/>
+        <line num="49" count="18" type="stmt"/>
         <line num="50" count="18" type="stmt"/>
         <line num="51" count="18" type="stmt"/>
+        <line num="52" count="18" type="stmt"/>
         <line num="54" count="18" type="stmt"/>
         <line num="55" count="9" type="cond" truecount="2" falsecount="0"/>
         <line num="56" count="33" type="stmt"/>

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@auth0/auth0-react": "^1.10.1",
+    "@auth0/auth0-react": "^1.10.2",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "@mui/icons-material": "^5.8.4",
@@ -33,7 +33,7 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "test": "react-scripts test --coverage --watchAll",
-"coverage": "npm test -- --coverage --testResultsProcessor=jest-sonar-reporter --watchAll"
+    "coverage": "npm test -- --coverage --testResultsProcessor=jest-sonar-reporter --watchAll"
   },
   "eslintConfig": {
     "extends": [
@@ -81,8 +81,8 @@
   },
   "jest": {
     "collectCoverageFrom": [
-    "**/*.{ts,tsx}",
-    "!**/node_modules/**"
+      "**/*.{ts,tsx}",
+      "!**/node_modules/**"
     ]
   }
 }

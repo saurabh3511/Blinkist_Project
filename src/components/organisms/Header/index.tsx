@@ -8,7 +8,7 @@ import { Dropdown } from "../../molecules/Dropdown";
 import { ExtendedNav } from "../ExtendedNav";
 import theme from '../../themes/theme'
 import {useNavigate} from 'react-router-dom'
-
+import LogoutButton from '../../../Logout'
 
 
 const MainContainer = styled("div")({
@@ -114,7 +114,7 @@ export const HeaderComponent = () => {
             style={{cursor:'pointer'}}
             
           />
-          <Typography variant="body1" className={styles.myLibrary}  onClick={homePage} style={{cursor:'pointer'}}>
+          <Typography variant="body1" className={styles.myLibrary} onClick={homePage} style={{cursor:'pointer'}}>
             My Library
           </Typography>
           <Dropdown title={"Account"} 
@@ -124,7 +124,7 @@ export const HeaderComponent = () => {
           ></Dropdown>
         </MainContainer>
         {explore ? <ExtendedNav /> : null}
-        {/* <div  className={styles.logout1} >{account ? <LogoutButton  /> : null} </div> */}
+        <div  className={styles.logout1} >{account ? <LogoutButton  /> : null} </div>
       </ThemeProvider>
     </>
   );

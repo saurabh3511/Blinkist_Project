@@ -124,3 +124,5 @@ const Categories = (props:CardProps)=>{
     );
   };
  export default Categories;
+  
+  

@@ -1,24 +1,29 @@
-
+import { useAuth0 } from '@auth0/auth0-react';
 import React from 'react';
-import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
 import './App.css';
-import BookDetailsPage from './pages/BookDetails';
-import EntrepreneurshipPage from './pages/Entrepreneurship';
-import LibraryPage from './pages/MyLibrary';
+import LoginButton from './loginButton';
+import Main1 from './main';
+
 
 function App() {
-
+  const { isAuthenticated} = useAuth0();
+  // if(isLoading 
+  // ){
+  //   return <div>Loading...</div>
+  // }
   return (
-    <div >
-      <Router>
-        <Routes>
-          <Route path="/" element={<LibraryPage />} />
-          <Route path="/entrepreneurship" element={<EntrepreneurshipPage />}/>
-          <Route path="/bookdetails"  element={<BookDetailsPage/>} />
-        </Routes>
-      </Router>
-    </div>
+   <>
+
+    
+     {(!isAuthenticated) ? <LoginButton />: null}
+        
+        
+        
+      {isAuthenticated && <Main1 /> }
+
+    </>
   );
 }
 
 export default App;
+

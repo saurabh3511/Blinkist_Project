@@ -26,7 +26,7 @@ export const MyLibrary = (props: MyLibraryProps) => {
                 flexDirection: 'row',
                 position: 'relative',
                 top: 17,
-                left: 493,
+                left: 510,
                 fontSize:45,
             }}>My Library</Typography>
             </div>

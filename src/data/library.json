@@ -15,20 +15,6 @@
       }
     },
     {
-      "id": 2,
-      "title": "Bring Your Human to Work",
-      "author": "Erica Keswin",
-      "image": "../images/gallery1.svg",
-      "timeToRead": "13-min read",
-      "numberOfReads": "1.9k reads",
-      "status": {
-        "isFinished": false,
-        "isTrending": false,
-        "isFeatured": false,
-        "justAdded": false
-      }
-    },
-    {
       "id": 3,
       "title": "Doesn't Hurt to Ask",
       "author": "Trey Gowdy",
@@ -36,7 +22,7 @@
       "numberOfReads": "1.9k reads",
       "image": "../images/doesntHurtToAsk.svg",
       "status": {
-        "isFinished": true,
+        "isFinished": false,
         "isTrending": false,
         "justAdded": false,
         "isFeatured": true
@@ -134,7 +120,7 @@
       "numberOfReads": "1.9k reads",
       "image": "../images/beyondEntrepreneurship.svg",
       "status": {
-        "isFinished": false,
+        "isFinished": true,
         "isTrending": false,
         "justAdded": false,
         "isFeatured": false
