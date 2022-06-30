@@ -45,11 +45,11 @@ const Categories = (props:CardProps)=>{
     const [showData, setShowData] = useState(data);
     const [title,setTitle] = useState("");
     let styles = useStyles();
-    // console.log(props.ftitle);
-    // console.log(props.ftitle?.length);
+    console.log(props.ftitle);
+    console.log(props.ftitle?.length);
     const searchInput= props.ftitle;
     searchInput.toLowerCase()
-    // console.log(searchInput);
+    console.log(searchInput);
 
     let filterBooks = (statusOfBlink: string) => {
       if (statusOfBlink === "featured") {
@@ -124,5 +124,3 @@ const Categories = (props:CardProps)=>{
     );
   };
  export default Categories;
-  
-  
