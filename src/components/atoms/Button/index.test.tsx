@@ -16,9 +16,9 @@ describe("Button Test", () => {
         expect(button).toBeInTheDocument();
     });
 
-    // test("Button with Text", () => {
-    //     render(<ButtonComponent children="Connect" />)
-    //     const button = screen.getByRole('button')
-    //     expect(button).toBeInTheDocument();
-    // })
+    test("Button with Text", () => {
+        render(<ButtonComponent children="Connect" />)
+        const button = screen.getByRole('button')
+        expect(button).toBeInTheDocument();
+    })
 })

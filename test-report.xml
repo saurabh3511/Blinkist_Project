@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/ExtendedNav/index.test.tsx">
+    <testCase name="ToolBar Text" duration="355"/>
+    <testCase name="ToolBar onClick" duration="223"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/Tabs/index.test.tsx">
+    <testCase name="Tabs test Is finished test" duration="279"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/templates/BookDetails/index.test.tsx">
+    <testCase name="Book Details Template Test Should exist" duration="483"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/BookCategories/index.test.tsx">
+    <testCase name="Book categories test Trending test" duration="511"/>
+    <testCase name="Book categories test Featured test" duration="287"/>
+    <testCase name="Book categories test Just Added test" duration="282"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/templates/EntrepreneurshipCategory/index.test.tsx">
+    <testCase name="Entrepreneurship Page Existence test" duration="1111"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/BookDescription/index.test.tsx">
+    <testCase name="Book Description Test Test" duration="785"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/Card/index.test.tsx">
+    <testCase name="Card test Finished card test" duration="121"/>
+    <testCase name="Card test Read again card test" duration="49"/>
+    <testCase name="Card test Add To Library card test" duration="89"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/molecules/Tabs/index.test.tsx">
+    <testCase name="Tabs Test tabstest" duration="112"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/templates/MyLibrary/index.test.tsx">
+    <testCase name="My Library Test Existence test" duration="0"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/Header/index.test.tsx">
+    <testCase name="Header test Existence test" duration="396"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/molecules/FooterNav/index.test.tsx">
+    <testCase name="Footer Nav Test Editorial test" duration="17"/>
+    <testCase name="Footer Nav Test Useful links test" duration="14"/>
+    <testCase name="Footer Nav Test Company test" duration="12"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/molecules/SearchBar/index.test.tsx">
+    <testCase name="Search bar test Search bar" duration="28"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/atoms/Button/index.test.tsx">
+    <testCase name="Button Test Button with start icon and text" duration="65"/>
+    <testCase name="Button Test Button with end icon and text" duration="32"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/molecules/Banner/index.test.tsx">
+    <testCase name="Banner test Banner checking" duration="24"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/molecules/Dropdown/index.test.tsx">
+    <testCase name="Dropdown test Explore dropdown test" duration="12"/>
+    <testCase name="Dropdown test Account dropdown test" duration="6"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/SearchBarFunction/index.test.tsx">
+    <testCase name="Entrepreneurship Page Existence test" duration="19"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/atoms/ProgressBar/index.test.tsx">
+    <testCase name="Unit Test - Progress Bar" duration="9"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/atoms/Avatar/index.test.tsx">
+    <testCase name="Unit test - Avatar" duration="11"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/atoms/IconButton/index.test.tsx">
+    <testCase name="Icon Button Test Checking for search icon" duration="52"/>
+    <testCase name="Icon Button Test Checking for dropdown icon" duration="21"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/atoms/Icon/index.test.tsx">
+    <testCase name="display logo should display logo" duration="22"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/Footer/index.test.tsx">
+    <testCase name="Footer test Testing for data" duration="58"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/AboutBook/index.test.tsx">
+    <testCase name="About book testing Testing for tabs" duration="85"/>
+  </file>
+  <file path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/molecules/IconAndText/index.test.tsx">
+    <testCase name="Icon And Text test User test" duration="55"/>
+  </file>
+</testExecutions>
