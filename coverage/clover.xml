@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1656572634089" clover="3.2.0">
-  <project timestamp="1656572634090" name="All files">
-    <metrics statements="360" coveredstatements="218" conditionals="50" coveredconditionals="36" methods="94" coveredmethods="46" elements="504" coveredelements="300" complexity="0" loc="360" ncloc="360" packages="32" files="59" classes="59"/>
+<coverage generated="1656585809011" clover="3.2.0">
+  <project timestamp="1656585809011" name="All files">
+    <metrics statements="376" coveredstatements="220" conditionals="58" coveredconditionals="37" methods="99" coveredmethods="46" elements="533" coveredelements="303" complexity="0" loc="376" ncloc="376" packages="32" files="62" classes="62"/>
     <package name="src">
-      <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="28" coveredstatements="2" conditionals="10" coveredconditionals="0" methods="8" coveredmethods="0"/>
       <file name="App.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/App.tsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="11" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="Logout.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/Logout.tsx">
+        <metrics statements="6" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
       </file>
       <file name="index.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/index.tsx">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+      <file name="loginButton.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/loginButton.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+      </file>
+      <file name="main.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/main.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="10" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
       </file>
       <file name="react-app-env.d.ts" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/react-app-env.d.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -457,14 +482,14 @@
       </file>
     </package>
     <package name="src.components.organisms.Header">
-      <metrics statements="20" coveredstatements="15" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="2"/>
+      <metrics statements="20" coveredstatements="15" conditionals="10" coveredconditionals="5" methods="5" coveredmethods="2"/>
       <file name="index.stories.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/Header/index.stories.tsx">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="9" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
       </file>
       <file name="index.tsx" path="/home/saurab/Desktop/Blinkist-React-App/blinkist/src/components/organisms/Header/index.tsx">
-        <metrics statements="18" coveredstatements="15" conditionals="8" coveredconditionals="4" methods="4" coveredmethods="2"/>
+        <metrics statements="18" coveredstatements="15" conditionals="10" coveredconditionals="5" methods="4" coveredmethods="2"/>
         <line num="14" count="5" type="stmt"/>
         <line num="26" count="5" type="stmt"/>
         <line num="76" count="5" type="stmt"/>

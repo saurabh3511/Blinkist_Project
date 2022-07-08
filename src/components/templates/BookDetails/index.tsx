@@ -11,6 +11,7 @@ export interface BookDetailsProps {
 
 let BodyComponent = styled("div")({
   position: "relative",
+  // bottom :0,
   left: 510,
 });
 
@@ -20,14 +21,13 @@ let BodyComponent = styled("div")({
 // })
 
 export const BookDetails = (props: BookDetailsProps) => {
-  let {  body } = props;
   return (
-    <>
+    <div>
     <HeaderComponent/>
     
     <BodyComponent><BookDescription />,</BodyComponent>
     
     <Footer/>
-  </>
+  </div>
   );
 };

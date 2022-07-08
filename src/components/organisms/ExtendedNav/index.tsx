@@ -58,7 +58,8 @@ let useStyles = makeStyles({
     navItem: {
         display: 'flex',
         flexDirection: 'row',
-        width: 182
+        width: 182,
+        curser:"pointer"
     },
     highlight: {
         fontWeight: '700 !important',
@@ -74,6 +75,9 @@ let useStyles = makeStyles({
       marginRight: 12,
       width: 16,
       height: 22.05
+    },
+    cursor: {
+      cursor : "pointer"
     }
 });
 
@@ -109,7 +113,11 @@ export const ExtendedNav = () => {
           {ExtendedNavData.map((data, key) => {
             return (
               <div className={styles.navItem}>
-                <IconAndText iconSource={data.icon} key={key} title={data.title} variant="body2" onClick={showEntrepreneursPage} />
+                <IconAndText iconSource={data.icon} key={key} title={data.title} variant="body2"
+                onClick={showEntrepreneursPage} 
+                className = {styles.cursor}
+                />
+
               </div>
             );
           })}

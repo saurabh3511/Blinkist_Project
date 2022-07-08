@@ -40,7 +40,7 @@ let OtherDetails = styled("div") ({
   flexDirection: 'row',
   position: 'relative',
   top: 17,
-  left: -10
+  left: -8
 })
 
 let TimeToReadDiv = styled("div") ({
@@ -51,7 +51,7 @@ let TimeToReadDiv = styled("div") ({
 
 let NumberOfReads = styled("div") ({
   position: 'relative',
-  left: 28.33,
+  left: 60.33,
   fontSize: 14
 })
 
@@ -74,7 +74,9 @@ let useStyles = makeStyles({
     fontWeight: 600,
     fontSize: '18px !important',
     color: "#03314B",
+    cursor : "pointer"
   },
+  
   image: {
     width: 16.67,
     height: 16.67,

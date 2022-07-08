@@ -9,10 +9,10 @@ import { Constants } from "../../../data/Constants";
 
 let MainContainer = styled("div")({
   width: "100%",
-  height: 360,
+  height: 450,
   backgroundColor: "#F1F6F4",
   position:'relative',
-   bottom:'0px'
+   bottom:"0"
 
 });
 
@@ -34,7 +34,7 @@ let LeftContainer = styled("div")({
 });
 
 let RightContainer = styled("div")({
-  position: "relative",
+  position: "relative",   
   top: 38,
   left: 310,
   display: 'flex'
@@ -61,6 +61,7 @@ let BottomContainer = styled("div")({
   fontWeight: 400,
   fontFamily: "Cera Pro",
   color: "#6D787E",
+  bottom: 0
 });
 
 const Footer = () => {   
@@ -79,7 +80,7 @@ const Footer = () => {
             fontSize: 24,
           }}
           >
-              {Constants.footer.description1}<br></br>
+              {Constants.footer.description1} 
            {Constants.footer.description2}
           </Typography>
         </LeftContainer>

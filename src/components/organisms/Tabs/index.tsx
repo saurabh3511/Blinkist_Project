@@ -94,7 +94,7 @@ export const Tabs = () => {
                 TabIndicatorProps={{
                   style: {
                     backgroundColor: "#2CE080",
-                    // borderBottom: 1, borderColor: 'divider',
+                  
                   },
                 }}
               >

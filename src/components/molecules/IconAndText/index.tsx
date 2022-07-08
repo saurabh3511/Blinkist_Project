@@ -30,7 +30,7 @@ const useStyles = makeStyles({
   },
   typography: {
     alignSelf: "center",
-  },
+  }
 });
 
 export const IconAndText = (props: IconAndTextProps) => {
@@ -42,8 +42,9 @@ export const IconAndText = (props: IconAndTextProps) => {
         <Icon>{iconSource}</Icon>
         <Typography
           variant={variant}
-          className={`${style.typography} ${className}`}
+          className={`${style.typography} ${className} `}
           onClick={onClick}
+    
         >
           {title}
         </Typography>

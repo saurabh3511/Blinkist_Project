@@ -1,8 +1,8 @@
 import { styled } from "@mui/styles";
-import { Banner } from "../../molecules/Banner";
+// import { Banner } from "../../molecules/Banner";
 import  Footer from "../../organisms/Footer/index";
 import { HeaderComponent } from "../../organisms/Header/index";
-import Sizes from "../../organisms/SearchBarFunction";
+// import Sizes from "../../organisms/SearchBarFunction";
 
 
 export interface EntrepreneurshipProps {
@@ -18,14 +18,17 @@ export interface EntrepreneurshipProps {
 let BodyContainer = styled("div")({
     width: 912,
     position: 'relative',
-    left: 480
+    left: 480,
+    minHeight: '50px',
+
 })
 
 
 let SearchContainer = styled("div") ({
     position: 'relative',
-    top: 104,
-    left: 25
+    top: 58,
+    left: 25,
+    
 })
 
 let TrendingBlinks = styled("div") ({
@@ -48,15 +51,26 @@ let FeaturedBlinks = styled("div") ({
 
 let FooterWrap = styled("div") ({
     position: 'relative',
-    minHeight: '100vh',
-    top: 500
+    height:500,
+    top: 500,
+    bottom:0,
+    minHeight: '50px'    
+    
 })
-
+let Wrap = styled("div") ({
+    minHeight: '100%', 
+})
+let HeadWrap = styled("div") ({
+    minHeight: '50px',
+})
 export const Entrepreneurship = (props: EntrepreneurshipProps) => {
     let { trendingBlinks, banner,sizes,justAddedBlinks, featuredBlinks} = props
     return (
         <>
-            <HeaderComponent/>
+        <Wrap>
+            <HeadWrap>
+                <HeaderComponent/>
+            </HeadWrap>
             <BodyContainer>
                 {banner}
                 <SearchContainer> {sizes} </SearchContainer>
@@ -70,7 +84,7 @@ export const Entrepreneurship = (props: EntrepreneurshipProps) => {
             <FooterWrap>
             <Footer/>
             </FooterWrap>
-            
+        </Wrap>
         </>
     )
 }

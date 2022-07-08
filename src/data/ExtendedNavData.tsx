@@ -1,21 +1,21 @@
-import { ReactComponent as Entreprenuership } from "../images/entreprenuer.svg";
-import { ReactComponent as Science } from "../images/science.svg";
-import { ReactComponent as Economics } from "../images/economics.svg";
-import { ReactComponent as Corporate } from "../images/corporate.svg";
-import { ReactComponent as Psychology } from "../images/psychology.svg";
-import { ReactComponent as Nature } from "../images/nature.svg";
-import { ReactComponent as Politics } from "../images/politics.svg";
-import { ReactComponent as Health } from "../images/health.svg";
-import { ReactComponent as History } from "../images/history.svg";
-import { ReactComponent as Motivation } from "../images/motivation.svg";
-import { ReactComponent as Productivity } from "../images/productivity.svg";
-import { ReactComponent as Career } from "../images/career.svg";
-import { ReactComponent as Marketing } from "../images/marketing.svg";
-import { ReactComponent as Personal } from "../images/personal.svg";
-import { ReactComponent as Communication } from "../images/communication.svg";
-import { ReactComponent as Money } from "../images/money.svg";
-import { ReactComponent as Relation } from "../images/relationship.svg";
-import { ReactComponent as Education } from "../images/education.svg";
+import { ReactComponent as Entreprenuership } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/entreprenuer.svg";
+import { ReactComponent as Science } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/science.svg";
+import { ReactComponent as Economics } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/economics.svg";
+import { ReactComponent as Corporate } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/corporate.svg";
+import { ReactComponent as Psychology } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/psychology.svg";
+import { ReactComponent as Nature } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/nature.svg";
+import { ReactComponent as Politics } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/politics.svg";
+import { ReactComponent as Health } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/health.svg";
+import { ReactComponent as History } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/history.svg";
+import { ReactComponent as Motivation } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/motivation.svg";
+import { ReactComponent as Productivity } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/productivity.svg";
+import { ReactComponent as Career } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/career.svg";
+import { ReactComponent as Marketing } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/marketing.svg";
+import { ReactComponent as Personal } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/personal.svg";
+import { ReactComponent as Communication } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/communication.svg";
+import { ReactComponent as Money } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/money.svg";
+import { ReactComponent as Relation } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/relationship.svg";
+import { ReactComponent as Education } from "/home/saurab/Desktop/Blinkist-React-App/blinkist/src/images/education.svg";
 
 const ExtendedNavData = [
   {

@@ -54,11 +54,11 @@ const Categories = (props:CardProps)=>{
     let filterBooks = (statusOfBlink: string) => {
       if (statusOfBlink === "featured") {
         setShowData(showData.filter((item) => item.status.isFeatured));
-        setTitle("Featured")
+        setTitle("Featured audio blinks")
   
       } else if(statusOfBlink === "trending") {
           setShowData(showData.filter((item) => item.status.isTrending))
-          setTitle("Trending")
+          setTitle("Trending blinks")
       }
   
       else if(statusOfBlink === "justAdded") {

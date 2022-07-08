@@ -11,8 +11,8 @@ const useStyles = makeStyles({
     fontWeight:"700",
     border: "none",
     lineHeight:"30px",
-    width: 269,
-    height: 24,
+    width: 278,
+    height: 30,
     fontFamily: 'Cera Pro',
     marginLeft: "32px",
     "&:focus": {
@@ -32,8 +32,8 @@ const useStyles = makeStyles({
     marginTop: "2.96px",
   },
   imageProps: {
-    width: "18.39px",
-    height: "18.39px",
+    width: "23.39px",
+    height: "23.39px",
   },
 });
 

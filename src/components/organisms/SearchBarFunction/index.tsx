@@ -7,11 +7,13 @@ import  Search  from "./../../../images/search.svg";
 
 const useStyles = makeStyles({
   inputBar:{
-      fontSize: "16px",
+      fontSize: "24px",
   border: "none",
-  width: 180,
+  width: 260,
   height: 24,
   fontFamily: 'Cera Pro',
+  fontStyle : 'Bold',
+  // color: #6D787E,
   marginLeft: "32px",
   "&:focus": {
     outline: "none",
@@ -19,7 +21,7 @@ const useStyles = makeStyles({
 },
 boxElement: {
   width: 598,
-  height: 28,
+  height: 40,
   backgroundColor: "",
   borderBottom: "1.5px solid #BAC9CF",
   display: "flex",
@@ -31,14 +33,13 @@ imageDiv: {
   marginTop: "2.96px",
 },
 imageProps: {
-  width: "18.39px",
-  height: "18.39px",
+  width: "23.7px",
+  height: "23.7px",
 },
 
 });
 export default function Sizes({setTitle}:{setTitle:any}) {
   const classes = useStyles();
-  //const [filter,setFilter]= React.useState('');
   const searchText = (event:any)=>{
     setTitle(event)
   }
